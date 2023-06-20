@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form id="registrationForm">
+            <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" class="name" id="name" required/>
+            </div>
+            <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" class="email" id="email"/>
+            </div>
+            <input type="submit" value="Register">
+        </form>
+        <table id="registrationTable" border="1px">
+            <tr>
+                <th class="linha1">Name</th>
+                <th class="linha1" id="tableEmail">Email</th>
+            </tr>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+   <script src="./form.js"></script>
+</body>
+</html>
